@@ -34,7 +34,7 @@ body {
     color: var(--verde);
 }
 
-.botão{
+.botao{
     font-family: "Chakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
@@ -44,6 +44,19 @@ body {
     font-size: 18px;
     align-items: center;
     width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 4px solid var(--botao-ativo);
+    border-right: 4px solid var(--botao-ativo);
+    border-top: 4px solid var(--botao-ativo);
+
+}
+
+.botao
+
+@media screen and (min-width: 780px) {
+    .botoes{
+        display:flex;
+    }
 }
 
 
