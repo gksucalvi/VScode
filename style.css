@@ -30,6 +30,17 @@ body {
     font-size: 32px;
 }
 
+.titulo-principal span{
+    color: var(--verde);
+}
+
+.botão{
+    font-family: "Chakra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+}
+
 
 
 
